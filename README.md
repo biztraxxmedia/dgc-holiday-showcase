@@ -2,4 +2,4 @@
 
 Public showcase of Dog Gone Classy’s holiday QR wallpapers.
 
-Live: https://biztraxxmedia.github.io/dgc-holiday-showcase/?v=1
+Live: https://biztraxxmedia.github.io/dgc-holiday-showcase/?v=2
