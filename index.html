@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dog Gone Classy — Holiday Wallpapers</title>
   <meta name="description" content="Holiday QR wallpapers for Dog Gone Classy, grooming and boarding at 601 Burkesville St in Columbia, KY. Get your dog the classy treatment.">
-  <link rel="icon" href="assets/logo/favicon.png?v=3" type="image/png">
-  <link rel="apple-touch-icon" href="assets/logo/apple-touch.png?v=3">
+  <link rel="icon" href="assets/logo/favicon.png?v=4" type="image/png">
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch.png?v=4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Outfit:wght@400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -122,13 +122,17 @@
     .section-actions { margin: -8px 0 22px; }
 
 
+    #videos-gallery { align-items: start; }
+    .video-card { height: auto; align-self: start; }
     .video-card video {
       width: 100%;
-      aspect-ratio: 1080 / 1920;
+      height: auto;
+      aspect-ratio: 9 / 16;
       object-fit: contain;
+      display: block;
+      max-height: 80vh;
       background: #0d0714;
       border-radius: 12px;
-      display: block;
     }
 
     .gallery {
@@ -290,7 +294,7 @@
 <body>
   <header class="hero">
     <div class="wrap">
-      <img class="logo" src="assets/logo/logo-web.webp?v=3" width="640" height="590" alt="Dog Gone Classy logo">
+      <img class="logo" src="assets/logo/logo-web.webp?v=4" width="640" height="590" alt="Dog Gone Classy logo">
       <h1>Dog Gone Classy</h1>
       <p class="slogan">Get your dog the classy treatment.</p>
       <p class="lede">Holiday jingle videos and QR wallpapers you can play, save, print, or post. Tap a card to enlarge it, or download the file.</p>
@@ -323,8 +327,8 @@
         <h2>Holiday wallpapers — Set 1</h2>
         <p class="section-intro">Seven seasonal QR wallpapers. Each one opens a different action: the website, directions to the shop, or a phone call.</p>
         <p class="section-actions">
-          <a class="btn" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1.zip?v=3" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1.zip">Download all 7</a>
-          <a class="btn ghost" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip?v=3" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip">Download both sets</a>
+          <a class="btn" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1.zip?v=4" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1.zip">Download all 7</a>
+          <a class="btn ghost" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip?v=4" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip">Download both sets</a>
         </p>
         <div class="gallery" id="set1-gallery"></div>
       </div>
@@ -335,8 +339,8 @@
         <h2>Holiday wallpapers — Set 2</h2>
         <p class="section-intro">A second set of seven holiday QR wallpapers, with a fresh look for each season. Tap a card to enlarge it, or download the file.</p>
         <p class="section-actions">
-          <a class="btn" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set2.zip?v=3" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set2.zip">Download all 7</a>
-          <a class="btn ghost" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip?v=3" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip">Download both sets</a>
+          <a class="btn" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set2.zip?v=4" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set2.zip">Download all 7</a>
+          <a class="btn ghost" href="assets/wallpapers/Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip?v=4" download="Dog-Gone-Classy-Holiday-QR-Wallpapers-Set1-and-Set2.zip">Download both sets</a>
         </p>
         <div class="gallery" id="set2-gallery"></div>
       </div>
@@ -345,7 +349,7 @@
 
   <footer class="site">
     <div class="wrap">
-      <img class="logo" src="assets/logo/logo-web.webp?v=3" width="96" height="88" alt="">
+      <img class="logo" src="assets/logo/logo-web.webp?v=4" width="96" height="88" alt="">
       <p><strong>Dog Gone Classy</strong><br>
         Get your dog the classy treatment.</p>
       <p>
@@ -368,7 +372,7 @@
   </div>
 
   <script>
-    const V = "3";
+    const V = "4";
     const bust = (src) => src + (src.includes("?") ? "&" : "?") + "v=" + V;
 
     const VIDEOS = [
